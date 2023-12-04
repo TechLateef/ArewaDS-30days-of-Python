@@ -1,5 +1,4 @@
 
-
 print('Thirty ' + 'Days '+ 'Of '+'Python')
 print('Coding ' + 'For '+ 'All ')
 company = "Coding For All"
