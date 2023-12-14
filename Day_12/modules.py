@@ -78,3 +78,12 @@ print("Shuffled List:", shuffled_result)
 
 unique_numbers_result = generate_unique_numbers()
 print("Unique Numbers:", unique_numbers_result)
+
+def concatenate_strings(input_list):
+    nsingle = ''
+    for x in input_list:
+        nsingle += x
+    return nsingle
+
+input_strings = ["Hello", " ", "World", "!"]
+print(concatenate_strings(input_strings))
