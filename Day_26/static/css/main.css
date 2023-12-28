@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    line-height: 1.75;
+    font-weight: 900;
+    word-spacing: 1.5px;
+    font-family: 'Lato',sans-serif;
+    font-weight: 300;
+    background: rgb(210, 214, 210);
+
+  }
+header {
+    background: #4a7799;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+.container {
+    background: rgb(210, 214, 210);
+    padding: 20px;
+    margin: auto;
+}
+
+h1, h2 {
+    margin: 20px;
+    font-weight: 300;
+    font-family: Nunito;
+}
+
+p {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.tech-lists {
+    margin: 10px auto;
+    text-align: left;
+    font-size: 20px;
+    list-style: none;
+}
+textarea {
+    width: 65%;
+    margin: auto;
+    padding: 15px;
+    outline: 2px solid rgba(207, 203, 203, 0.25);
+    border: none;
+    font-size: 18px;
+    font-family: Lato;
+    font-weight: 300;
+  }
+  .btn {
+    width: 150px;
+    height: 50px;
+    background: #4a7799;
+    color: #bbb;
+    font-size: 20px;
+    margin: 5px;
+    border: 1px solid var(--header-bg-color);
+    font-family: Lato;
+    cursor: pointer;
+  }
+.menu-container {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(221, 215, 215);
+    padding: 25px;
+
+}
+
+.nav-lists {
+    text-decoration: none;
+    font-size: 22px;
+    gap: 5rem;
+    padding: 0 5px;
+    display: flex;
+    list-style: none;
+    color: var(--nav-link-color);
+}
+
+.nav-list a {
+    text-decoration: none;
+    padding: 0 5px;
+    color: #bbb;
+}
+
+.brand-name {
+    font-size: 28px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #bbb;
+
+
+}
